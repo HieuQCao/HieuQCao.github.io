@@ -331,23 +331,23 @@ header {
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .html {
+.about-stats .progress-bars .progress-bar .progress-con .progress .a {
   width: 70%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+.about-stats .progress-bars .progress-bar .progress-con .progress .b {
   width: 65%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .c {
   width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .cpp {
-  width: 25%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .d {
+  width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .rjs {
-  width: 15%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .e {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .f {
+  width: 35%;
 }
 
 .stat-title {
