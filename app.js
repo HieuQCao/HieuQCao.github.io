@@ -45,7 +45,7 @@ function PageTransitions() {
 }
 function downloadFile(event) {
     event.preventDefault();
-    const fileUrl = 'https://drive.google.com/file/d/1-wocz6oVp9jjMxE1ILihILsXXjR9W8y0/view?usp=sharing';
+    const fileUrl = 'https://drive.google.com/file/d/1hf7FP2NtjFw1RCBMl-J5h1JWtZt6hRAX/view?usp=sharing';
     const a = document.createElement('a');
     a.href = fileUrl;
     a.target = '_blank';
