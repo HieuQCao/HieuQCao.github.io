@@ -344,12 +344,49 @@ header {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .e {
-  width: 50%;
+  width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .f {
-  width: 35%;
+  width: 60%;
 }
 
+.certificate-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Remove justify-content: space-between; for even spacing */
+}
+
+
+
+
+.certificate .port-item img {
+  width: 400px;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  
+}
+.certificate h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.certificate p {
+  font-size: 20px;
+  line-height: 1.5;
+  clear: both; /* Clear float after image */
+  
+}
+.certificate-bottom-margin {
+  margin-bottom: 2rem; /* Adjust margin as needed */
+}
+
+.certificate b {
+  font-weight: bold;
+}
 .stat-title {
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -433,7 +470,7 @@ header {
   position: relative;
 }
 .portfolios .port-item img {
-  width: 100%;
+  width: 300px;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
