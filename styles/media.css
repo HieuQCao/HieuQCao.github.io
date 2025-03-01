@@ -1,3 +1,4 @@
+/* Fixed media query issues and added new styles */
 @media screen and (max-width: 600px) {
   .about-container {
     grid-template-columns: 1fr;
@@ -5,6 +6,7 @@
   .about-container .right-about {
     padding-top: 2.5rem;
     grid-template-columns: 1fr;
+    width: 100%; /* Fixed width for smaller screens */
   }
   .about-container .left-about {
     padding-right: 0;
@@ -37,6 +39,7 @@
     font-size: 3rem;
   }
 }
+
 @media screen and (max-width: 1432px) {
   .header {
     padding: 0 !important;
@@ -59,29 +62,32 @@
     margin-top: 1.5rem;
   }
 }
+
 @media screen and (max-width: 1070px) {
   .about-container {
     grid-template-columns: 1fr;
   }
   .about-container .right-about {
     padding-top: 2.5rem;
+    width: 100%; /* Fixed width for medium screens */
   }
-  .about-container .portfolios {
+  .portfolios {
     grid-template-columns: 1fr 1fr;
   }
-  .about-container .blogs {
+  .blogs {
     grid-template-columns: 1fr 1fr;
   }
-  .about-container .main-title h2 {
+  .main-title h2 {
     font-size: 4rem;
   }
-  .about-container .main-title h2 span {
+  .main-title h2 span {
     font-size: 4rem;
   }
-  .about-container .main-title h2 .bg-text {
+  .main-title h2 .bg-text {
     font-size: 4.5rem;
   }
 }
+
 @media screen and (max-width: 970px) {
   .section {
     padding: 7rem 6rem;
@@ -129,9 +135,10 @@
     margin: 0.6rem 1rem !important;
   }
 }
+
 @media screen and (max-width: 700px) {
   .section {
-    padding: 7rem 3rrem;
+    padding: 7rem 3rem; /* Fixed typo: 3rrem to 3rem */
   }
   .about-stats .progress-bars {
     grid-template-columns: 1fr;
@@ -143,6 +150,6 @@
     font-size: 3rem;
   }
   .main-title h2 .bg-text {
-    font-size: 4rem;
+    font-size: 4rem
   }
-}/*# sourceMappingURL=media.css.map */
+}
